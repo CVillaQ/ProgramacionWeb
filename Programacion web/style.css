@@ -1,0 +1,45 @@
+body {
+    background-image: url(a4b9bcff4af85019b77a8cc66430d473-scaled.jpg);
+    background-size: cover;
+  }
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #F8D0AC;
+    width: 900px;
+    height: 200px;
+    border-style:hidden;
+    font-family:'Courier New', Courier, monospace
+}
+.ficha{
+    margin: 45px;
+    padding: 50px;
+    width: 250px;
+    height: 250px;
+    border-style:double;
+    background-color: #E2CEAD;
+    border-radius: 25px;
+    font-family:'Courier New', Courier, monospace
+}
+.fotografia{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+.columna{
+   background-color: blue; 
+   border-radius: 25px;
+   border-style: dotted;
+   height: 250px;
+   width: 250px;
+   padding: 50px;
+   margin: 45px;
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
